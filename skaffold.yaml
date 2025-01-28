@@ -24,3 +24,11 @@ build:
         manual: 
           - src: '**/*.js'
             dest: .  
+    - image: sanjib112/tickets
+      context: tickets
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual: 
+          - src: 'src/**/*.ts'
+            dest: .  
