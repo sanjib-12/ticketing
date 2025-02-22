@@ -13,3 +13,6 @@
 [submodule "nats-test"]
 	path = nats-test
 	url = https://github.com/sanjib-12/ticketing-nats-test
+[submodule "orders"]
+	path = orders
+	url = https://github.com/sanjib-12/ticketing-orders.git
