@@ -16,3 +16,6 @@
 [submodule "orders"]
 	path = orders
 	url = https://github.com/sanjib-12/ticketing-orders.git
+[submodule "expiration"]
+	path = expiration
+	url = https://github.com/sanjib-12/ticketing-expiration
