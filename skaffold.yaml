@@ -16,14 +16,14 @@ build:
         manual: 
           - src: 'src/**/*.ts'
             dest: .  
-    # - image: sanjib112/client
-    #   context: client
-    #   docker:
-    #     dockerfile: Dockerfile
-    #   sync:
-    #     manual: 
-    #       - src: '**/*.js'
-    #         dest: .  
+    - image: sanjib112/client
+      context: client
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual: 
+          - src: '**/*.js'
+            dest: .  
     - image: sanjib112/tickets
       context: tickets
       docker:
@@ -42,6 +42,14 @@ build:
             dest: .  
     - image: sanjib112/expiration
       context: expiration
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual: 
+          - src: 'src/**/*.ts'
+            dest: .  
+    - image: sanjib112/payments
+      context: payments
       docker:
         dockerfile: Dockerfile
       sync:

@@ -19,3 +19,6 @@
 [submodule "expiration"]
 	path = expiration
 	url = https://github.com/sanjib-12/ticketing-expiration
+[submodule "payments"]
+	path = payments
+	url = https://github.com/sanjib-12/ticketing-payments
